@@ -11,7 +11,7 @@ export default function App() {
   const queryClient = new QueryClient();
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/wanted-snplab/">
         <ThemeProvider theme={theme}>
           <GlobalStyle />
           <Router />
