@@ -8,7 +8,7 @@ interface ApplicationTableRowProps {
   user: IAdmin;
   num: number;
 }
-//hi
+//hi hi
 function ApplicantTableRow({ user, num }: ApplicationTableRowProps) {
   const updateWin = patchUserWin();
   const handleWinStatus = (e: React.ChangeEvent<HTMLInputElement>) => {
