@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "/wanted-snplab/",
     "paths": {
       "@src/*": ["src/*"],
       "@routes/*": ["src/routes/*"],

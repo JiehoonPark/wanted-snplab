@@ -1,4 +1,4 @@
-import setDateFormat from '@utils/setDateFormat';
+import setDateFormat from '../utils/setDateFormat';
 
 const removeEndDot = (date: string) =>
   date[date.length - 1] === '.' ? date.slice(0, date.length - 1) : date;

@@ -2,7 +2,6 @@ import axios from 'axios';
 import { useQuery, useMutation } from 'react-query';
 import { IUser } from '@type/models/user';
 import { BASE_URL } from '@api/index';
-import format from 'date-fns/format';
 
 // 모든 지역 가져오기
 const fetchRegion = async () => {
